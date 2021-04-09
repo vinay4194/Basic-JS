@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Recursive:wght@300;400;500&display=swap');
+
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+   font-family: recursive;
+}
+body{
+   
+}
+.container{
+   width: 300px;
+	height: 200px;
+	
+	
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	
+	margin: auto;
+   text-align: center;
+}
+.container h1{
+   font-size: 45px;
+   margin-bottom: 30px;
+}
+.btn{
+   padding:7px 12px;
+   margin-right:10px;
+   border-radius: 5px;
+   font-size: 14px;
+   
+}
+.btn:hover{
+   background-color: #d6d9db;
+}

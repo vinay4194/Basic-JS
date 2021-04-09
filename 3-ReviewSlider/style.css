@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;300&family=Noto+Sans&family=Poppins:wght@100;200;300;400&family=Rubik:wght@300;400&display=swap');
+
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+}
+body{
+   background-color: #edeef0;
+   width: 350px;
+	height:450px;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	
+	margin: auto;
+   text-align: center;
+}
+
+.img-size{
+   width:20px;
+   height:20px;
+}
+.title{
+   font-family:'Crimson Pro';
+   margin-bottom:30px;
+   font-size:24px;
+}
+.container{
+   background-color:#ffffff;
+   padding:35px;
+   height:450px;
+   box-shadow: 1px 1px 10px;
+   border-radius: 15px;
+}
+#person-img{
+   border-radius: 50%;height: 100px;
+}
+.container h4{
+   margin-top: 20px;
+   margin-bottom: 10px;
+   font-family: 'Noto Sans', sans-serif; ;
+}
+#job{
+   margin-bottom: 15px;
+   font-family: 'Rubik', sans-serif;
+   text-transform: uppercase;
+   color:royalblue
+}
+#info{
+   font-family:  'Poppins', sans-serif;
+   margin-bottom: 25px;
+}
+.prev-btn{
+   margin-right:15px;
+   border:none
+}
+.next-btn{
+   border:none;
+}
