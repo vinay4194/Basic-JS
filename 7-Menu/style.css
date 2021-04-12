@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Nunito:wght@300;400&family=Roboto+Slab:wght@200;300;400&display=swap');
+
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+}
+h1{
+   font-family:  'Merriweather', serif;;
+}
+h4{
+   font-family:'Roboto Slab', serif;
+}
+p{
+   font-family: 'Nunito', sans-serif;
+}
+.menu{
+   text-align: center;
+   margin:50px;
+}
+.title{
+   margin-bottom: 50px;
+   text-decoration: underline;
+}
+.section-center{
+   display:flex;
+   flex-wrap: wrap;
+   padding:0px 20px;
+}
+.btn-container{
+   margin-bottom: 25px;
+}
+.filter-btn{
+   padding:6px 13px;
+   border-radius: 5px;
+   margin-right: 10px;
+   border-color: #0000;
+   border:2px solid goldenrod;
+   background-color: #0000;
+
+}
+.filter-btn:hover{
+   background-color: goldenrod;
+   transition: ease-in-out .3s;
+   color:#fff;
+}
+.menu-item{
+flex-basis: 50%;
+display: flex;
+padding:25px;
+}
+.item-info{
+   flex-basis: 50%;
+   padding:0px 20px
+}
+.item-info header{
+   display: flex;
+   margin-bottom: 30px;
+   border-bottom: 1px solid gray;
+   
+   
+}
+.item-name{
+   text-transform: uppercase;
+   text-align: left;
+   flex-basis: 80%;
+}
+.price{
+   color:goldenrod;
+   flex-basis: 20%;
+}
+.menu-item img{
+   flex-basis: 40%;
+   max-width: 300px;
+   max-height: 170px;
+   border:2px solid goldenrod;
+   border-radius: 10px;
+}
+.item-text{
+   
+   text-align: justify;
+}
