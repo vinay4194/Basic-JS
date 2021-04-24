@@ -4,11 +4,11 @@ const display = document.getElementById("book-list");
 const inputs = document.querySelectorAll(".form-control")
 const showAlert = document.querySelector(".alert");
 
-//....Event Listner
+//....Event Listner...
 btn.addEventListener('click',addBook);
 
 
-//....Functions
+//....Functions...
 function addBook(e){
    e.preventDefault();
     const tr = document.createElement('tr');
