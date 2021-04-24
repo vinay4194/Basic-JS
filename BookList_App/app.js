@@ -16,11 +16,6 @@ function addBook(e){
    deleteBtn.innerHTML = '<i class="fas fa-trash">';
    deleteBtn.classList.add("delete-btn")
 
-   
-   // const td = document.createElement('td');
-   // td.innerText=title.target.value;
-   // tr.appendChild(td);
-   // display.appendChild(tr);
 inputs.forEach(function(ip){
    
    const values= ip.value;
